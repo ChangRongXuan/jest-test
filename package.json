@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "name": "jest-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "transform": {
+    "\\.[jt]sx?$": "babel-jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "axios": "^1.4.0",
+    "babel-jest": "^29.5.0",
+    "jest": "^29.5.0",
+    "jest-extended": "^4.0.0"
+  },
+  "dependencies": {}
+}
